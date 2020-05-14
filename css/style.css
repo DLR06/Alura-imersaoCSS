@@ -1,0 +1,120 @@
+/* Paleta utilizada: #F2F2F2 / #BFBFBF / #8C8C8C / #595959 / #0D0D0D */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #8C8C8C; */
+    background-size: auto 100vh; 
+    font-family: Arial;
+    height: 100vh;
+}
+
+header {
+    background-color: #8C8C8C;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: #595959;
+    position: fixed;
+    font-size: 18px;
+    width: 100vw;
+    top: 0;
+}
+  
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.menu li {
+    list-style: none; 
+}
+
+.menu a {
+    display: block;
+    padding: 20px 20px;
+  }   
+  
+a {
+    text-decoration: none;
+    color: #BFBFBF;
+}
+  
+a:hover {
+    font-weight: bolder;
+    color: #F2F2F2;
+}
+  
+.site-subtitle, 
+.site-title {
+    text-align: center;
+    color: #0D0D0D;
+}
+
+.site-title {
+    font-size: 3em;
+  }
+  
+.site-subtitle {
+   font-style: italic;
+}
+
+#portfolio{
+    /* display: flex; */
+    background-color: #BFBFBF;
+}
+
+.img-portfolio {
+    height: 180px;
+    width: 180px;
+}
+
+.img-portfolio:hover{
+    filter: blur(4px);
+    background-repeat: no-repeat;
+}
+
+  
+  /* se a tela tiver pelo menos 400px vai carregar estes estilos */
+  /* @media (min-width: 400px) {
+    body {
+      font-size: 14px;
+    }
+  } */
+  
+  /* breakpoint */
+  /* @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  } */
+  
+  /* breakpoint */
+  /* @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+      background-image: none;
+      background-color: deeppink;
+    }
+  } */
+  
+
+  
+  
+
+    
+ 
+
+  
